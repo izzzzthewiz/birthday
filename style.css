@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ffe9ed;
+    color: crimson;
+}
+
+#display{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.display-date-time{
+    margin: 10vh 0;
+}
+.display-date-time h1{
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 8vmin;
+}
+.display-date-time p{
+    font-size: 4vmin;
+}
+.display-time{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    text-align: center;
+}
+
+#inputcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputs{
+    margin: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs-grid{
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    text-align: center;
+}
+.inputs-grid input,
+.inputs-grid label{
+    margin: 0.5vh;
+    font-size: 4vmin;
+    text-align: center;
+    border-radius: 2vmin;
+    border: none;
+    color: crimson;
+}
+.inputs-grid input:focus{
+    outline: 2px solid crimson;
+}
+.inputs button{
+    margin: 0.5vh;
+    padding: 1vmin 2vmin;
+    font-size: 4vmin;
+    background-color: crimson;
+    border: none;
+    border-radius: 2vmin;
+    color: white;
+    cursor: pointer;
+}
+.inputs button:hover{
+    opacity: 50%;
+}
